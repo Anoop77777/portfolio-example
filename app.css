@@ -1,0 +1,58 @@
+
+    body{
+        width:100%;
+        height:100%; 
+    }
+    .main{
+        border-radius: 25px;
+        display: flex;
+        position:absolute;
+        width:100%;
+        height:100%;
+        border:1px solid black;
+        padding:10px;
+      }
+      
+      .left{
+        /* border-radius: 25px; */
+        background-color:rgb(248, 204, 204);  
+        flex: 1;
+        width:30%;
+        height:100%;
+        border:1px solid red;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+      }
+      
+      .imge{
+          padding: 10px;
+          /* background-color: black; */
+       width: 100%;
+       height: 50%;
+       text-align: center;}
+      .container{
+          padding-left: 20px;
+      } 
+      .right{
+        /* border-radius: 25px; */
+        position: relative;
+        width:70%;
+        height:100%;
+        border:1px solid blue;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+      }
+      .righttop {
+        border-radius: 25px;
+        background-color: #f00;
+        width: 100%;
+        height: 50%;
+        
+    }
+    .rightdown { 
+        border-radius: 25px;
+        background-color: #0f0;
+        width: 100%;
+        height: 50%;
+        
+    }

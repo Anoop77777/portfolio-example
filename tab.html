@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tab.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css-circular-prog-bar.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <div class="main">
+      <div id="London" class="tabcontent">
+        <div class="home">
+          <div class="imge">
+              <img src="https://picsum.photos/200/300" height="200px" width="200px" >
+              <div class="name">
+                  <h2>Jane Doe</h2>
+              </div>   
+          </div>
+          <div >
+              
+              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+              <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+             
+          </div>
+          
+      </div>
+        <!-- <h1>London</h1>
+        <p>London is the capital city of England.</p> -->
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+           
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+      
+      </div>
+<!--         
+        <h1>Paris</h1>
+        <p>Paris is the capital of France.</p> -->
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <!-- <h1>Tokyo</h1>
+        <p>Tokyo is the capital of Japan.</p> -->
+        <div >
+          <h2 ><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+          <div  class="ed1">
+            <h5 ><b>W3Schools.com</b></h5>
+            <h6 ><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+            <p>Web Development! All I need to know in one place</p>
+            <hr>
+          </div>
+          <div >
+            <h5 ><b>London Business School</b></h5>
+            <h6 ><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+            <p>Master Degree</p> 
+            <hr>
+          </div>
+          <div >
+            <h5 ><b>School of Coding</b></h5>
+            <h6 ><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+            <p>Bachelor Degree</p><br>
+          </div>
+        </div>
+
+      </div>
+      
+      <div id="Oslo" class="tabcontent">
+        <div class="left">
+
+          <h2>My Skills</h2>
+          <p>HTML & CSS & JS</p>
+          <div class="container">
+              <div class="skill html">80%</div>
+          </div>
+        
+          <p>JAVA</p>
+          <div class="container">
+              <div class="skill java">80%</div>
+          </div>
+          <p>Dart and Flutter</p>
+          <div class="container">
+              <div class="skill dart">90%</div>
+          </div>
+          <p> C & C++</p>
+          <div class="container">
+              <div class="skill c">70%</div>
+          </div>
+        </div>
+
+       
+        <div class="right">
+       
+          <h2>My Language</h2>
+          <p>Malayalam</p>
+          <div class="container">
+              <div class="skill m">100%</div>
+          </div>
+        
+          <p>English</p>
+          <div class="container">
+              <div class="skill e">80%</div>
+          </div>
+          <p>Tamil</p>
+          <div class="container">
+              <div class="skill t">60%</div>
+          </div>
+          <p> Hindi</p>
+          <div class="container">
+              <div class="skill h">50%</div>
+          </div>
+          
+        </div>
+
+        <!-- <h1>Oslo</h1>
+        <p>Oslo is the capital of Norway.</p> -->
+      </div>
+
+    <div class="tabs">
+        <button class="tablink" onclick="openCity('London', this, '#777')" id="defaultOpen">Profile</button>
+        <button class="tablink" onclick="openCity('Paris', this, '#777')">Experience</button>
+        <button class="tablink" onclick="openCity('Tokyo', this, '#777')">Education</button>
+        <button class="tablink" onclick="openCity('Oslo', this, '#777')">Skill & Language</button>
+    </div>
+  </div>
+     <script src="tab.js"></script>
+</body>
+</html>
